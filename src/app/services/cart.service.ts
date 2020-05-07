@@ -17,8 +17,8 @@ export class CartService {
   constructor(private productService: ProductService) { }
 
   add(p_id: number){
-    console.log('Add product id: '+ id+' to cart');
-    this.cart.push(this.productService.getSomeProduct(id));
+    /*console.log('Add product id: '+ id+' to cart');
+    this.cart.push(this.productService.getSomeProduct(id));*/
     this.counter = this.cart.length;
   }
 
